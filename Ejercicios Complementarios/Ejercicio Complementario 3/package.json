@@ -1,0 +1,28 @@
+{
+  "name": "EjercicioComplementario3",
+  "version": "1.0.0",
+  "description": "Aplicar un cron job",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "devstart": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "base",
+    "de",
+    "datos"
+  ],
+  "author": "Sara Tauriz",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.10",
+    "dotenv": "^10.0.0",
+    "mongoose": "^5.12.14",
+    "node-cron": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
