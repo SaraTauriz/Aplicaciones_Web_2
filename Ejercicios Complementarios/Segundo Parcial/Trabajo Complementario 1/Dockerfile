@@ -4,7 +4,7 @@ FROM node
 COPY . /var/www
 # Establecemos que nuestra carpeta de trabajo es la carpeta www
 WORKDIR /var/www
-# Instalamos las depencias
+# Instalamos las dependencias
 RUN npm install
 # Exponemos el puerto
 EXPOSE 8000
